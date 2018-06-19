@@ -7,8 +7,13 @@ iabbrev <buffer> im import
 iabbrev <buffer> pac package
 iabbrev <buffer> fl float64
 iabbrev <buffer> ret return
-iabbrev <buffer> Pr fmt.Println
 iabbrev <buffer> pacm package main
+iabbrev <buffer> iface interface
+iabbrev <buffer> fn func
+iabbrev <buffer> str string
+iabbrev <buffer> Pr fmt.Println
+iabbrev <buffer> Prf fmt.Printf
+iabbrev <buffer> Spf fmt.Sprintf
 
 nnoremap <buffer> <localleader>cg :call <SID>CompileGo(@%)<cr>
 nnoremap <buffer> <localleader>gd :call <SID>GoDocumentation()<cr>
